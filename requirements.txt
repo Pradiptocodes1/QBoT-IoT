@@ -3,3 +3,4 @@ pandas
 Werkzeug
 mistralai
 Gunicorn
+openpyxl
