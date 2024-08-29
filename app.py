@@ -13,7 +13,7 @@ ALLOWED_EXTENSIONS = {'xlsx', 'xls'}
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024 
-mistral_client = MistralClient(api_key="JAXv9n5zjE2FXlSzoGqeMolLp7uqQLqD")
+mistral_client = MistralClient(api_key="YhQawUzc9ymDAjC1cjXJqBpaIXz4jjPu")
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
