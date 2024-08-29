@@ -1,6 +1,6 @@
 Flask
 pandas
 Werkzeug
-mistralai
+mistralai==0.4.2
 Gunicorn
 openpyxl
